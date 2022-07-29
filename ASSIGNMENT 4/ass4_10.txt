@@ -1,0 +1,21 @@
+import sys
+print("Enter your input:")
+n=int(sys.argv[1])
+n1=int(sys.argv[2])
+n2=int(sys.argv[3])
+n3=int(sys.argv[4])
+n4=int(sys.argv[5])
+a=3.14*n*n
+b=2*3.14*n
+c=3.14*n*n*n1
+d=n2*n3
+e=2*(n2+n3+n4)
+f=n2*n3*n4
+print("The area of circle is:",a)
+print("The perimeter of circle is:",b)
+print("The volume of circle is:",c)
+print("The area of rectangle is:",d)
+print("The perimeter of rectangle is:",e)
+print("The volume of rectangle is:",f)
+
+
